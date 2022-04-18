@@ -6,6 +6,7 @@
   --bk: rgb(53, 53, 53);
   --bk2: rgb(41, 41, 41);
   --c1: white;
+  --c2: purple;
 }
 
 [data-theme='dark']{

@@ -23,7 +23,7 @@ li a,
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  box-shadow: 3px 3px 3px 3px var(--c1);
+  background-color: var(--c2);
 }
 
 li.dropdown {
@@ -46,7 +46,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  box-shadow: 3px 3px 3px 3px var(--c1);
+  background-color: var(--c2);
 }
 
 .dropdown:hover .dropdown-content {
