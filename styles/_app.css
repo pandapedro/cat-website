@@ -3,15 +3,15 @@
 @import "./navbar.css";
 
 :root {
-  --bk: rgb(0, 0, 0);
+  --bk: rgb(53, 53, 53);
+  --bk2: rgb(41, 41, 41);
   --c1: white;
-  background-image: url("../images/dark.jpg");
 }
 
 [data-theme='dark']{
-  --bk: rgb(255, 255, 255);
+  --bk: rgb(155, 155, 155);
+  --bk2: rgb(185, 185, 185);
   --c1: rgb(0, 0, 0);
-  background-image: url("../images/light.jpg");
 }
 
 body {
@@ -19,6 +19,7 @@ body {
   box-sizing: border-box;
   margin: 0px;
   color: var(--c1);
+  background-color: var(--bk);
 }
 
 .nav-space {

@@ -5,7 +5,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: transparent;
+  background-color: var(--bk2);
 }
 
 li {
@@ -19,11 +19,11 @@ li a,
   padding: 14px 16px;
   text-decoration: none;
   color: var(--c1);
-  background-color: transparent;
+  background-color: var(--bk2);
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: transparent;
+  box-shadow: 3px 3px 3px 3px var(--c1);
 }
 
 li.dropdown {
@@ -33,7 +33,6 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: transparent;
   min-width: 160px;
   z-index: 1;
 }
@@ -47,7 +46,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: transparent;
+  box-shadow: 3px 3px 3px 3px var(--c1);
 }
 
 .dropdown:hover .dropdown-content {
