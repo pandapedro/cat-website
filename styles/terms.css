@@ -1,0 +1,13 @@
+.terms {
+  color: var(--c1);
+}
+
+.terms h2 {
+  color: var(--c1);
+  font-size: 50px;
+}
+
+.terms a {
+  color: var(--c1);
+  text-decoration: none;
+}

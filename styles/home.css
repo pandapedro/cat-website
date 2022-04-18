@@ -1,0 +1,29 @@
+.home {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.home > div.buttons {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.home > div.buttons > button {
+    color: var(--c1);
+    font-weight: 400;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    font-size: 1.3em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px var(--c1);
+    transition-duration: 450ms;
+    background-color: transparent;
+}
+
+.home > div.buttons > button:hover {
+    font-size: 1.4em;
+    padding: 11px;
+    box-shadow: 0px 0px 5px var(--c1);
+}

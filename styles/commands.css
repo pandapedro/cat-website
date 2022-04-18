@@ -1,0 +1,18 @@
+@import "./terms.css";
+
+.menu-title {
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px var(--c1);
+}
+
+.menu-title > h2, h4 {
+    color: var(--c1);
+}
+
+.menu-content {
+    display: none;
+    animation: smooth-slide 120ms ease-in-out;
+}
