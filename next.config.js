@@ -1,10 +1,7 @@
-const path = require("path");
-
 module.exports = {
   i18n: {
     locales: ["en-US", "pt-BR"],
     defaultLocale: "en-US",
-    localePath: path.resolve("./locales"),
   },
   async redirects() {
     return [
