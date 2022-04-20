@@ -1,6 +1,5 @@
 import Themes from "./themes";
 import Img from "next/image";
-import Lang from "./lang";
 import Logo from "../public/favicon.ico";
 
 const Navbar = () => {
@@ -29,9 +28,6 @@ const Navbar = () => {
             <div class="dropdown-content">
               <a>
                 <Themes />
-              </a>
-              <a>
-                <Lang />
               </a>
             </div>
           </li>
