@@ -1,11 +1,29 @@
 @import "./themes.css";
 
+nav .content {
+  display: flex;
+  align-items: center;
+  background-color: var(--bk);
+}
+
+nav .content > a {
+  padding: 14px 16px;
+  text-decoration: none;
+  color: var(--c1);
+}
+
+nav .content > p {
+  margin-left: 10px;
+  margin-right: 12px;
+  color: var(--c1);
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--bk2);
+  background-color: var(--bk);
 }
 
 li {
@@ -19,10 +37,11 @@ li a,
   padding: 14px 16px;
   text-decoration: none;
   color: var(--c1);
-  background-color: var(--bk2);
+  background-color: var(--bk);
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover,
+.dropdown:hover .dropbtn {
   background-color: var(--c2);
 }
 

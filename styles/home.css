@@ -1,12 +1,17 @@
 @import "./commands.css";
 
 .home {
-    padding: 50px;
+    max-width: 630px;
+    padding: 6px;
+    margin: auto;
+    margin-top: 28vh;
     font-size: 20px;
+    text-align: center;
 }
 
 .home > div.buttons {
     display: flex;
+    justify-content: center;
     margin: auto;
     margin-top: 20px;
 }
@@ -18,15 +23,15 @@
     margin-right: 10px;
     border: none;
     font-size: 1.3em;
+    background-color: var(--bk);
     border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px var(--c1);
     transition-duration: 450ms;
-    background-color: var(--bk2);
-    box-shadow: 0px 0px 5px 0px var(--c1);
 }
 
 .home > div.buttons > button:hover {
     font-size: 1.4em;
     padding: 11px;
     background-color: var(--c2);
-    box-shadow: 0px 0px 5px 0px var(--c1);
+    box-shadow: 0px 0px 0px 1px var(--c1);
 }

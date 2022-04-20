@@ -1,19 +1,28 @@
 @import "./terms.css";
 
-.menu-title {
-    padding: 14px;
-    background-color: var(--bk2);
-    box-shadow: 0px 0px 2px 0px var(--c1);
-    border-radius: 6px;
-    margin-bottom: 16px;
-    cursor: pointer;
+.commands {
+  margin-bottom: 30px;
+  max-width: 1030px;
+  padding: 18px;
+  padding-bottom: 12px;
+  margin: auto;
+  text-align:justify;
 }
 
-.menu-title > h2, h4 {
-    color: var(--c1);
+.menu-title {
+  padding: 14px;
+  box-shadow: 0px 0px 0px 1px var(--c1);
+  border-radius: 6px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.menu-title > h2,
+h4 {
+  color: var(--c1);
 }
 
 .menu-content {
-    display: none;
-    animation: smooth-slide 120ms ease-in-out;
+  display: none;
+  animation: smooth-slide 120ms ease-in-out;
 }

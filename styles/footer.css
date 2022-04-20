@@ -4,7 +4,7 @@
     padding: 25px;
     color: var(--c1);
     font-weight: bolder;
-    background-color: var(--bk2);
+    text-align: center;
 }
 
 .footer > p {

@@ -22,7 +22,6 @@
   bottom: 0;
   background-color: transparent;
   background-color: rgb(31, 31, 31);
-  box-shadow: 2px 2px 2px 2px var(--c1);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -40,7 +39,6 @@
 }
 
 input:checked + .slider {
-  background-color: transparent;
   background-color: rgb(172, 172, 172);
 }
 
