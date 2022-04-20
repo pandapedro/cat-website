@@ -1,5 +1,5 @@
-@import "../Footer/index.css";
-@import "../Themes/index.css";
+@import "../footer/index.css";
+@import "../themes/index.css";
 
 nav .content {
   display: flex;

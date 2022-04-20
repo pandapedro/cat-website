@@ -1,4 +1,4 @@
-import Themes from "../Themes/index";
+import Themes from "../themes/index";
 import Img from "next/image";
 import Logo from "../../public/favicon.ico";
 
