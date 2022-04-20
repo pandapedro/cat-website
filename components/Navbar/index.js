@@ -1,7 +1,6 @@
 import Themes from "./themes";
 import Img from "next/image";
 import Logo from "../public/favicon.ico";
-import Lang from "./lang";
 
 const Navbar = () => {
   return (
