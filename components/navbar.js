@@ -30,9 +30,6 @@ const Navbar = () => {
               <a>
                 <Themes />
               </a>
-              <a>
-                <Lang />
-              </a>
             </div>
           </li>
         </ul>
