@@ -1,6 +1,6 @@
-import Themes from "./themes";
+import Themes from "../Themes/index";
 import Img from "next/image";
-import Logo from "../public/favicon.ico";
+import Logo from "../../public/favicon.ico";
 
 const Navbar = () => {
   return (
