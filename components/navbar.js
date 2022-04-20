@@ -24,19 +24,12 @@ const Navbar = () => {
           </li>
           <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">
-              Theme
+              Settings
             </a>
             <div class="dropdown-content">
               <a>
                 <Themes />
               </a>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">
-              Language
-            </a>
-            <div class="dropdown-content">
               <a>
                 <Lang />
               </a>
