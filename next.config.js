@@ -1,8 +1,7 @@
+import { i18n } from "./next-i18next.config"
+
 module.exports = {
-  i18n: {
-    locales: ["en-US", "pt-BR"],
-    defaultLocale: "en-US",
-  },
+  i18n,
   reactStrictMode: true,
   async redirects() {
     return [
