@@ -4,7 +4,7 @@ const Nf = () => {
     return (
       <>
         <Head>
-          <title>Cat - website</title>
+          <title>Cat - not exist</title>
         </Head>
         <div className="home">
           <h1>This page does not exist</h1>
