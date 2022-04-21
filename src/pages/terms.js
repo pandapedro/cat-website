@@ -13,17 +13,16 @@ const Terms = () => {
       <div className="terms">
         <h2>{t("h2")}</h2>
         <h3>
-          To facilitate your navigation on the page, you can go straight to a of
-          these topics:
+          {t("h3")}
         </h3>
         <br />
         <p>
-          <a href="#tu">Terms of use</a> <br />
-          <a href="#pp">Privacy policy</a>
+          <a href="#tu">{t("tu")}</a> <br />
+          <a href="#pp">{t("pp")}</a>
         </p>
         <br />
         <p>
-          "REMEMBERING: "<strong>by using me, you agree to the terms</strong>
+          REMEMBERING: <strong>by using me, you agree to the terms</strong>
         </p>
         <h2 id="tu">Terms of use</h2>
         <h3>The following actions will not be tolerated:</h3>
