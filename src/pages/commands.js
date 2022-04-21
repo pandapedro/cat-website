@@ -2,12 +2,14 @@ import Script from "next/script";
 import Head from "next/head";
 
 export async function getStaticProps() {
-  const URL = `https://discord.com/api/v9/applications/${process.env.ID}/commands`;
-  let commands = await fetch(URL, {
-    headers: {
-      Authorization: `Bot ${process.env.TOKEN}`,
-    },
-  });
+  let commands = await fetch(
+    `https://discord.com/api/v9/applications/${process.env.ID}/commands`,
+    {
+      headers: {
+        Authorization: `Bot ${process.env.TOKEN}`,
+      },
+    }
+  );
   commands = await commands.json();
   return {
     props: {
