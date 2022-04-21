@@ -4,10 +4,9 @@ export default function Footer() {
       <div className="footer">
         <footer>
           <p>
-            Powered by <a href="https://www.javascript.com/">javascript</a>,{" "}
-            <a href="https://nextjs.org/">next.js</a>,{" "}
-            <a href="https://code.visualstudio.com/">vsc</a> &{" "}
-            <a href="https://abal.moe/Eris/">eris</a>
+            Open code:{" "}
+            <a href="https://github.com/pandapedro/cat-website">website</a> &{" "}
+            <a href="https://github.com/pandapedro/cat-bot">bot</a>
           </p>
         </footer>
       </div>
