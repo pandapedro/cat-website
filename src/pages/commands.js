@@ -24,6 +24,12 @@ export default function commandsPage(props) {
     <>
       <Head>
         <title>Cat - commands</title>
+        <meta content="Cat - commands" property="og:title" />
+        <meta content="My slash command list." property="og:description" />
+        <meta
+          content="https://embed.com/this-is-the-site-url"
+          property="og:url"
+        />
       </Head>
       <header>
         <div className="commands" style={{ marginTop: "0px" }}>

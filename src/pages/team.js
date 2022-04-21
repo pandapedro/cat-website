@@ -24,6 +24,15 @@ export default function TeamPage({ user }) {
     <>
       <Head>
         <title>Cat - team</title>
+        <meta content="Cat - team" property="og:title" />
+        <meta
+          content="Know who are responsible for my creation!"
+          property="og:description"
+        />
+        <meta
+          content="https://embed.com/this-is-the-site-url"
+          property="og:url"
+        />
       </Head>
       <div className="team-title">
         <h1>Created by:</h1>
