@@ -13,6 +13,6 @@ const App = ({ Component, pageProps }) => {
       <Footer />
     </div>
   );
-};
+}
 
 export default App;
