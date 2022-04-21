@@ -9,8 +9,8 @@ export async function getStaticProps() {
         Authorization: `Bot ${process.env.TOKEN}`,
       },
     }
-  );
-  commands = await commands.json();
+  ).then(async (res) => await res.json());
+
   return {
     props: {
       commands: commands,
