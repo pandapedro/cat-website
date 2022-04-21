@@ -11,7 +11,7 @@ const Terms = () => {
         <title>{t("title")}</title>
       </Head>
       <div className="terms">
-        <h2>{t("h2")}</h2>
+        <h2>Terms</h2>
         <h3>
           To facilitate your navigation on the page, you can go straight to a of
           these topics:
