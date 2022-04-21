@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 
 const Themes = () => {
-  const [darkTheme, setDarkTheme] = useState(undefined);
-
-  const handleToggle = (event) => {
-    setDarkTheme(event.target.checked);
-  };
+  const [darkTheme, setDarkTheme] = useState(undefined),
+    handleToggle = (event) => {
+      setDarkTheme(event.target.checked);
+    };
 
   useEffect(() => {
     if (darkTheme !== undefined) {

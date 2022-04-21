@@ -6,10 +6,10 @@ const Navbar = () => {
   return (
     <nav>
       <div className="content">
-        <div className="logo-img" onClick={() => (window.location.href = "/")}>
+        <div className="logo-img">
           <Img src={Logo} alt="Searcher Logo" width="75" height="75" />
         </div>
-        <p onClick={() => (window.location.href = "/")}>Cat</p>
+        <p>Cat</p>
         <ul>
           <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">
