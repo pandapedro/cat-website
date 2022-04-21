@@ -4,11 +4,11 @@ const Nf = () => {
     return (
       <>
         <Head>
-          <title>Cat - not exist</title>
+          <title>Cat - non-existent page</title>
         </Head>
         <div className="home">
           <h1>This page does not exist</h1>
-          <p1>Go back to home page ;)</p1>
+          <p1>Please, go back to home page ;)</p1>
           <div className="buttons">
             <button onClick={(d) => (d.view.document.location.href = "/")}>
               Home page
