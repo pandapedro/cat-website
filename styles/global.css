@@ -1,0 +1,9 @@
+/* COMPONENTS */
+@import "./components/footer.css";
+@import "./components/navbar.css";
+@import "./components/theme.css";
+/* PAGES */
+@import "./pages/_app.css";
+@import "./pages/commands.css";
+@import "./pages/index.css";
+@import "./pages/terms.css";
