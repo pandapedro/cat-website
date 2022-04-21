@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Img from "next/image";
-import Logo from "../../public/favicon.ico";
 
 export async function getStaticProps() {
   let user = await fetch(
@@ -25,13 +24,6 @@ export default function TeamPage({ user }) {
     <>
       <Head>
         <title>Cat - team</title>
-        <meta content={`Cat - team`} property="og:title" />
-        <meta
-          content="Know who are responsible for my creation!"
-          property="og:description"
-        />
-        <meta content="#43B581" data-react-helmet="true" name="theme-color" />
-        <meta content={Logo} property="og:thumbnail" />
       </Head>
       <div className="team-title">
         <h1>Created by:</h1>
