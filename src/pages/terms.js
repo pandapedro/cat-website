@@ -1,13 +1,17 @@
 import Head from "next/head";
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 const Terms = () => {
+  const { t } = useTranslation("terms");
+
   return (
     <>
       <Head>
-        <title>Cat - terms</title>
+        <title>{t("title")}</title>
       </Head>
       <div className="terms">
-        <h2>Terms</h2>
+        <h2>{t("h2")}</h2>
         <h3>
           To facilitate your navigation on the page, you can go straight to a of
           these topics:
@@ -43,3 +47,9 @@ const Terms = () => {
 };
 
 export default Terms;
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ["terms"])),
+  },
+});
