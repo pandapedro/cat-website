@@ -9,7 +9,6 @@ const App = ({ Component, pageProps }) => {
       <div className="container">
         <Component {...pageProps} />
       </div>
-      <Footer />
     </div>
   );
 }
