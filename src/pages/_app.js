@@ -1,7 +1,6 @@
 import "../styles/global.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import { appWithTranslation } from "next-i18next";
 
 const App = ({ Component, pageProps }) => {
   return (
@@ -16,4 +15,4 @@ const App = ({ Component, pageProps }) => {
   );
 };
 
-export default appWithTranslation(App);
+export default App;
