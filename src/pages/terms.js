@@ -5,12 +5,6 @@ const Terms = () => {
     <>
       <Head>
         <title>Cat - terms</title>
-        <meta content="Cat - terms" property="og:title" />
-        <meta content="Follow my terms ;)" property="og:description" />
-        <meta
-          content="https://embed.com/this-is-the-site-url"
-          property="og:url"
-        />
       </Head>
       <div className="terms">
         <h2>Terms</h2>

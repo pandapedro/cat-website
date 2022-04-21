@@ -5,15 +5,6 @@ const Home = () => {
     <>
       <Head>
         <title>Cat - website</title>
-        <meta content="Cat - website" property="og:title" />
-        <meta
-          content="A simple and multifunctional bot."
-          property="og:description"
-        />
-        <meta
-          content="https://embed.com/this-is-the-site-url"
-          property="og:url"
-        />
       </Head>
       <div className="home">
         <h1>Cat</h1>
