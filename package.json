@@ -1,7 +1,7 @@
 {
   "main": "index",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "name": "cat-website",
   "scripts": {
     "dev": "next dev",
@@ -9,14 +9,8 @@
     "start": "next start"
   },
   "dependencies": {
-    "axios": "^0.26.1",
-    "cookies-next": "^2.0.4",
-    "i18next": "^21.6.16",
     "next": "^12.1.5",
-    "next-i18next": "^11.0.0",
-    "next-intl": "^2.6.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-i18next": "^11.16.7"
+    "react-dom": "^18.0.0"
   }
 }
