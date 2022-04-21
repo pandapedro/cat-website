@@ -40,7 +40,7 @@ li a,
 
 li a:hover,
 .dropdown:hover .dropbtn {
-  background-color: var(--c2);
+  color: var(--c2);
 }
 
 li.dropdown {
@@ -63,7 +63,7 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-  background-color: var(--c2);
+  color: var(--c2);
 }
 
 .dropdown:hover .dropdown-content {
