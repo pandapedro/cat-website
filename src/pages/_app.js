@@ -1,5 +1,6 @@
 import "../styles/global.css";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
 const App = ({ Component, pageProps }) => {
   return (
@@ -9,6 +10,7 @@ const App = ({ Component, pageProps }) => {
       <div className="container">
         <Component {...pageProps} />
       </div>
+      <Footer />
     </div>
   );
 };

@@ -19,7 +19,7 @@ const Terms = () => {
         </p>
         <br />
         <p>
-          "REMEMBERING: "<strong>by using me, you agree to the terms</strong>
+          REMEMBERING: <strong>by using me, you agree to the terms</strong>
         </p>
         <h2 id="tu">Terms of use</h2>
         <h3>The following actions will not be tolerated:</h3>
