@@ -13,16 +13,16 @@ const Footer = () => {
           <Img src={Eris} width={20} height={20} />
         </a>{" "}
         <a href="https://nextjs.org/">
-          <SiNextdotjs />
+          <SiNextdotjs color="#4e98d8" />
         </a>{" "}
         <a href="https://nodejs.org/">
-          <FaNodeJs />
+          <FaNodeJs color="#4e98d8" />
         </a>{" "}
         <a href="https://www.javascript.com/">
-          <IoLogoJavascript />
+          <IoLogoJavascript color="#4e98d8" />
         </a>{" "}
         <a href="https://code.visualstudio.com/">
-          <SiVisualstudio />
+          <SiVisualstudio color="#4e98d8" />
         </a>
       </p>
     </footer>

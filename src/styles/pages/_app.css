@@ -5,14 +5,14 @@
   --bk: rgb(36, 36, 36);
   --bk2: rgb(41, 41, 41);
   --c1: white;
-  --c2: purple;
+  --c2: rgb(160, 82, 160);
 }
 
 [data-theme='dark']{
   --bk: rgb(187, 187, 187);
   --bk2: rgb(185, 185, 185);
   --c1: rgb(0, 0, 0);
-  --c2: green;
+  --c2: rgb(162, 255, 162);
 }
 
 body {
