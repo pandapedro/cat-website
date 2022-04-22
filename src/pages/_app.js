@@ -11,6 +11,6 @@ const App = ({ Component, pageProps }) => {
       </div>
     </div>
   );
-}
+};
 
 export default App;

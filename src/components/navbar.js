@@ -18,6 +18,7 @@ const Navbar = () => {
             <div class="dropdown-content">
               <a href="/">Home</a>
               <a href="/terms">Terms</a>
+              <a href="/credits">Credits</a>
               <a href="/commands">Commands</a>
             </div>
           </li>
