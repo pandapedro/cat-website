@@ -31,7 +31,7 @@ const Nf = () => {
 
           setTimeout(() => {
             window.location.href = "/";
-          }, 10000);
+          }, 9000);
         }}
       />
     </>
