@@ -1,6 +1,6 @@
 import { IoLogoJavascript } from "react-icons/io";
 import { SiVisualstudio, SiNextdotjs } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs, FaCrown } from "react-icons/fa";
 import Img from "next/image";
 import Eris from "../../assets/images/eris.png";
 
@@ -23,6 +23,9 @@ const Footer = () => {
         </a>{" "}
         <a href="https://code.visualstudio.com/">
           <SiVisualstudio color="#4e98d8" />
+        </a>{" "}
+        <a href="/credits">
+          <FaCrown color="#4e98d8" />
         </a>
       </p>
     </footer>
